@@ -1,0 +1,93 @@
+.clr{clear: both;}
+.button{
+	background-color: black;
+	color: white;
+	padding:10px 15px;
+	border:none;
+}
+.heading{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: grey;
+	line-height: 10px;
+	margin:50px;
+	
+
+}
+.heading small{
+	font-style: italic;
+	color: grey;
+}
+.heading h1{
+	 font-weight:100;
+	 letter-spacing: 0.1em;
+	 color: black;
+
+
+}
+.container{
+	padding-top: 50px;
+}
+.box{
+	padding: 50px;
+	padding-top: 0px;
+}
+.form{
+	float: right;
+	width: 50%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.form textarea{
+	display: block;
+	padding: 8px;
+	width: 100%;
+	display: inline-flex;
+	box-sizing: border-box;
+	
+}
+
+.form input[name="name"]{
+	display: inline-block;
+
+	padding: 8px;
+	width: 49%;
+	float: right;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	box-sizing: border-box;
+}
+
+.form input[name="Email"] {
+	padding: 8px;
+	width: 49%;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	box-sizing: border-box;
+
+}
+.form input[type="submit"]{
+	float: right;
+}
+.info{
+	float: left;
+	width: 50%;
+	padding: 15px;
+	padding-left: 100px;
+	box-sizing: border-box;
+
+}
+.info ul{
+	padding: 15px;
+	list-style :none; 
+}
+#location{
+	list-style-image: url(images/location1.png);
+}
+#number{
+	list-style-image: url(images/number.png);
+}
+#mail{
+	list-style-image: url(images/mail.png);
+}
